@@ -36,4 +36,4 @@ with open(filename, mode='w', newline='') as file:
         writer.writerow([s])
 
 
-print(f"Zapisano {num_samples} próbek do pliku {filename}")
+print(f"Saved {num_samples} samples to file {filename}")
